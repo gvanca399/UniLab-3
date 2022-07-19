@@ -20,7 +20,7 @@ body header .innerHeader .menu{
 }
 body header .innerHeader .menu .menu-list .menu-list-item {
     display: inline;
-    margin-left: 66px;
+    margin-right: 66px;
 }
 body header .innerHeader .menu .menu-list .menu-list-item .menu-list-link{
     color: #000000;
