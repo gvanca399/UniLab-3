@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#E5E5E5;
+    color: #000000;
+    
+}
+.container{
+    width: 1210px;
+    margin: 0 auto;
+}
+/* header */
+
+body header .innerHeader .menu{
+    padding: 30px 0;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+body header .innerHeader .menu .menu-list .menu-list-item {
+    display: inline;
+    margin-left: 66px;
+}
+body header .innerHeader .menu .menu-list .menu-list-item .menu-list-link{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+
+/* main section */
+
+section .container h2 {
+font-family: 'Fira Sans', sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+margin: 70px 0;
+}
+section .container .box{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+section .container .box .boxes{
+    width: 333px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+section .container .box .boxes img{
+width: 100%;
+
+}
+
+section .container .box .boxes h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0 17px 26px;
+}
+section .container .box .boxes p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    padding-left: 26px;
+}
+section .container .box .boxes button{
+    position: absolute;
+    cursor: pointer;
+    width: 118px;
+    top: 757px;
+    margin-left: 215px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 6px ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+body .list{
+    margin: 120px auto ;
+}
+.list .list-box ul li{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    list-style: inside;
+}
+.list .list-box{
+    display: flex;
+    gap: 185px;
+}
