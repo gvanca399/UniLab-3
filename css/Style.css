@@ -71,7 +71,7 @@ body section .container .box .boxes p{
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 0.03em;
-    padding: 0 0 15px 26px;
+    padding: 0 5px 15px 26px;
 }
 body section .container .box .boxes button{
     position: absolute;
